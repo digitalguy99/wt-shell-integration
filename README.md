@@ -13,11 +13,13 @@ curl https://raw.githubusercontent.com/digitalguy99/wt-shell-integration/main/oh
 ```
 ### oh-my-zsh
 1. Run the following command:
-```zsh
-curl -L https://api.github.com/repos/digitalguy99/wt-shell-integration/tarball/main | tar -xz --wildcards --strip=3 --one-top-level=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/wt-shell-integration '*/oh-my-zsh/wt-shell-integration/*'
-```
+    ```shell
+    curl -L https://api.github.com/repos/digitalguy99/wt-shell-integration/tarball/main | tar -xz --wildcards --strip=3 --one-top-level=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/wt-shell-integration '*/oh-my-zsh/wt-shell-integration/*'
+    ```
+
 2. Add to plugin in `~/.zshrc`
+
 3. jReload zsh configuration:
-```zsh
-. ~/.zshrc
-```
+    ```shell
+    . ~/.zshrc
+    ```
