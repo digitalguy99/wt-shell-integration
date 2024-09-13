@@ -7,7 +7,7 @@ If you have `oh-my-zsh`, go [here](#oh-my-zsh). Otherwise:
     ```zsh
     curl https://raw.githubusercontent.com/digitalguy99/wt-shell-integration/main/oh-my-zsh/wt-shell-integration/wt-shell-integration.plugin.zsh >> ~/.zshrc
     ```
-    
+
 2. Reload your zsh configuration:
     ```zsh
     . ~/.zshrc
@@ -21,7 +21,7 @@ If you have `oh-my-zsh`, go [here](#oh-my-zsh). Otherwise:
 
 2. Add to plugin in `~/.zshrc`
 
-3. jReload zsh configuration:
+3. Reload zsh configuration:
     ```zsh
     . ~/.zshrc
     ```
