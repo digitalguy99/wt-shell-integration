@@ -1,6 +1,13 @@
 # wt-shell-integration
 Plugins to enable shell integration on Windows Terminal for various shells
 
+## Table of Contents
+- [About wt-shell-integration plugin](#wt-shell-integration)
+- Installing the plugin
+  - [zsh](#zsh)
+    - [oh-my-zsh](#oh-my-zsh)
+  - [PowerShell](#powershell)
+
 ## zsh
 If you have `oh-my-zsh`, go [here](#oh-my-zsh). Otherwise:
 1. Run the following command:
@@ -27,3 +34,14 @@ If you have `oh-my-zsh`, go [here](#oh-my-zsh). Otherwise:
     ```
 
 ## PowerShell
+1. Run PowerShell as Administrator.
+
+2. Install the module:
+    ```pwsh
+    Install-Module wt-shell-integration -AllowClobber
+    ```
+
+3. Run the following:
+    ```pwsh
+    echo "Import-Module wt-shell-integration" >> $profile; . $profile
+    ```
