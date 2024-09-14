@@ -25,3 +25,5 @@ If you have `oh-my-zsh`, go [here](#oh-my-zsh). Otherwise:
     ```zsh
     . ~/.zshrc
     ```
+
+## PowerShell
