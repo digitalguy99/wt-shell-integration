@@ -43,5 +43,5 @@ If you have `oh-my-zsh`, go [here](#oh-my-zsh). Otherwise:
 
 3. Run the following:
     ```pwsh
-    Import-Module wt-shell-integration; echo "Import-Module wt-shell-integration" >> $profile
+    Import-Module wt-shell-integration; ac $profile "`nImport-Module wt-shell-integration" -encoding utf8 -nonewline
     ```
