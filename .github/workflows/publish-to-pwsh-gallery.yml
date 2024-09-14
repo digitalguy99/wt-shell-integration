@@ -1,0 +1,22 @@
+name: Publish to PowerShell Gallery
+
+on:
+    workflow_dispatch: null
+    push:
+        paths:
+            - 'pwsh/**'
+        branches:
+            - main
+
+jobs:
+    publish:
+        runs-on: windows-latest
+        steps:
+            - uses: actions/checkout@v3
+            - 
+                name: publish module
+                run: |
+                    mkdir wt-shell-integration
+                    cp pwsh/* wt-shell-integration
+                    Publish-Module -Path wt-shell-integration -NuGetApiKey ${{ secrets.PSG_API_KEY }}
+                shell: pwsh
