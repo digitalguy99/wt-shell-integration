@@ -39,7 +39,7 @@ If you have `oh-my-zsh`, go [here](#oh-my-zsh). Otherwise:
 ### oh-my-bash
 1. Run the following command:
     ```bash
-    curl -L https://api.github.com/repos/digitalguy99/wt-shell-integration/tarball/main | tar -xz --wildcards --strip=2 --one-top-level=${BASH_CUSTOM:-~/.oh-my-bash/custom}/plugins/wt-shell-integration '*/oh-my-bash/*'
+    curl -kL https://api.github.com/repos/digitalguy99/wt-shell-integration/tarball/main | tar -xz --wildcards --strip=2 --one-top-level=${BASH_CUSTOM:-~/.oh-my-bash/custom}/plugins/wt-shell-integration '*/oh-my-bash/*'
     ```
 2. Add to plugin in `~/.bashrc`
    
