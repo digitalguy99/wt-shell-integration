@@ -28,7 +28,7 @@ If you have `oh-my-zsh`, go [here](#oh-my-zsh). Otherwise:
     curl -L https://api.github.com/repos/digitalguy99/wt-shell-integration/tarball/main | tar -xz --wildcards --strip=2 --one-top-level=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/wt-shell-integration '*/oh-my-zsh/*'
     ```
 
-2. Add to plugin in `~/.zshrc`
+2. Add `wt-shell-integration` to plugin in `~/.zshrc`
 
 3. Reload zsh configuration:
     ```zsh
@@ -41,7 +41,7 @@ If you have `oh-my-zsh`, go [here](#oh-my-zsh). Otherwise:
     ```bash
     curl -kL https://api.github.com/repos/digitalguy99/wt-shell-integration/tarball/main | tar -xz --wildcards --strip=2 --one-top-level=${BASH_CUSTOM:-~/.oh-my-bash/custom}/plugins/wt-shell-integration '*/oh-my-bash/*'
     ```
-2. Add to plugin in `~/.bashrc`
+2. Add `wt-shell-integration` plugin in `~/.bashrc`
    
 3. Reload bash configuration:
     ```bash
