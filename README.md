@@ -1,5 +1,7 @@
 # wt-shell-integration
-Plugins to enable shell integration on Windows Terminal for various shells
+Plugin solutions to enable shell integration on Windows Terminal for various shells. For more information on shell integration in Windows Terminal, you can go [here](https://github.com/MicrosoftDocs/terminal/blob/main/TerminalDocs/tutorials/shell-integration.md).
+
+*Disclaimer: The plugin solutions described in this page are only those which are not available on the link above.*
 
 ## Table of Contents
 - [About wt-shell-integration plugin](#wt-shell-integration)
